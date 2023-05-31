@@ -50,6 +50,7 @@ body {
   background: linear-gradient(45deg, #f06, #3cf);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .home {
@@ -267,20 +268,6 @@ body {
   transform: translateX(-50%);
   max-width: 350px;
   object-fit: cover;
-}
-
-/* Media query for screens smaller than 800px */
-@media (max-width: 800px) {
-  /* Stack the text and image vertically */
-  .main-content {
-    flex-direction: column;
-  }
-
-  /* Allow each section to take up the full width */
-  .text-content,
-  .image-content {
-    flex-basis: 100%;
-  }
 }
 
 /* KEYFRAMES ANIMATION */
